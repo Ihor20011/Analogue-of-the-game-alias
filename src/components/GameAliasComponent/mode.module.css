@@ -1,0 +1,45 @@
+.return{
+    box-sizing: border-box;
+    background-color: orange;
+    height: 60px;  
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.categoriesBlock{
+    border: 1px solid black;
+    height: 150px;
+   background-color: rgb(226, 224, 224);
+}
+.flex{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.wordsfromArray{
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgb(53, 53, 53);
+    
+}
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.amountofWords{
+    font-size: 38px;
+    margin-right: 80px;
+    color: rgb(206, 45, 0);
+    font-weight: 900;
+}
+.start{
+    height: 132px;
+    background-color: rgb(6, 7, 7);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    font-size: 40px;
+    color: rgb(12, 12, 12);
+}

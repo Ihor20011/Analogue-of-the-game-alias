@@ -1,0 +1,46 @@
+.return{
+    background-color: orange;
+    height: 60px;  
+    font-size: 20px;
+}
+.block{
+margin-top: 0px;
+border-bottom: 1px solid black;
+height: 140px;
+}
+.label{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.showBlock{
+    font-size: 29px;
+    color: orange;
+    font-weight: 900;
+    margin-right: 70px;
+}
+.input{
+    margin-left: 100px;
+    width: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.par{
+    margin-left: 21px;
+}
+.eror{
+    color: red;
+}
+.select{
+    margin-left: 20px;
+}
+.formbtn{
+    position: absolute;
+    top: 700px;
+    background-color:aqua;
+    height: 101px;
+    width: 701px;
+    font-size: 30px;
+}

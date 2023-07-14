@@ -1,0 +1,56 @@
+.block{
+    height: 800px;
+    width: 700px;
+    border: 1px solid black;
+}
+.blue{
+    background-color: aqua;
+    height: 450px;
+}
+.logo{
+   position: absolute;
+   top: 160px;
+   left: 330px;
+   background-color: rgb(231, 104, 0);
+   height: 130px;
+   width: 160px;
+   border-radius: 50%;
+   padding-top: 46px;
+   padding-left: 33px;
+   padding-right: 5px;
+   font-size: 50px;
+   color: white;
+   font-weight: 900;
+}
+.change{
+    color: rgb(255, 255, 255);
+    margin-left: 330px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.buttons div {
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: orange;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.buttons a{
+    color: white;
+    list-style: none;
+}
+.black{
+    background-color: black;
+    height: 100px;
+    margin-top: 10px;
+}

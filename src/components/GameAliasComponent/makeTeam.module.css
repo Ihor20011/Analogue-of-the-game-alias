@@ -1,0 +1,64 @@
+.top{
+    background-color: orange;
+    height: 60px;
+}
+.teams div{
+    border: 1px solid black;
+    height: 100px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.teams button{
+    position:sticky;
+    top: 3px;
+    left: 100px;
+    margin-left: 400px;
+}
+.add{
+    margin-top: 20px;
+    height: 80px;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.instruction{
+    margin-top: 100px;
+    padding-left: 290px;
+    height: 100px;
+}
+.continue{
+    position: absolute;
+    top: 643px;
+    width: 700px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    background-color: rgb(106, 181, 255);
+    height: 108px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+    color: rgb(251, 251, 251);
+}
+.inputteam{
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    top: 250px; left: 320px;
+    width: 200px; height: 200px;
+    opacity: 2;
+    z-index: 100;
+}
+.inputteam p{
+    font-size: 15px;
+    margin-left: 24px;
+}
+.inputteam input{
+    margin-left: 25px;
+}
+.inputteam button{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    margin-left: 59px;
+    margin-top: 30px;
+}

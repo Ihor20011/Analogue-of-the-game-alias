@@ -1,0 +1,258 @@
+.mainBlock{
+    height: 280px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.teamBlock{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.teamBlock div{
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+.logotwo{
+    font-size: 24px;
+    color: antiquewhite;
+}
+.roundand{
+    display: flex;
+    margin-left:280px;
+    font-size: 30px;
+    margin-top: 150px;
+    font-weight: 800;
+}
+.para{
+    margin-top: 10px;
+    margin-left: 280px;
+    
+}
+.curentTeam{
+    font-weight: 800;
+    color: orange;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.btnforGame{
+    box-sizing: border-box;
+    height: 150px;
+    background-color: rgb(62, 226, 251);
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+.logoBlock{
+    height: 200px;
+    background-color: orange;
+}
+.curTeam{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-left: 290px;
+}
+.trueWords{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+    margin-left: 325px;
+}
+.logoBlock p{
+    font-size: 30px;
+    color:white;
+    margin-left: 280px;
+}
+.StartBlock{
+    height: 360px;
+    background-color: aliceblue;
+    padding-top: 30px;
+}
+.start{
+    box-sizing: border-box;
+    font-size: 40px;
+    padding-left: 60px;
+    color: white;
+    font-weight: bold;
+    padding-top: 100px;
+    background-color:rgb(15, 48, 159);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 220px;
+   
+}
+.loseBlock{
+    box-sizing: border-box;
+    background-color: gray;
+    height: 210px;
+    padding-top: 10px;
+}
+
+.loseBlock p{
+    font-size: 38px;
+    color:rgb(222, 13, 13);
+    margin-left: 320px;
+    font-weight: 900;
+}
+.startOne{
+    box-sizing: border-box;
+    font-size: 40px;
+    padding-left: 50px;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+    padding-top: 100px;
+    background-color:rgb(178, 186, 216);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 220px;
+}
+.bord{
+    box-sizing: border-box;
+    background-color: orange;
+    height: 230px;
+    padding-top: 60px;
+}
+.logoAmount{
+    font-size: 35px;
+    color: rgb(229, 229, 229);
+    font-weight: 900;
+    margin-left: 40px;
+}
+.flexinfo{
+    display: flex;
+    justify-content: space-around;
+}
+.count{
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: white;
+    height: 50px;
+    width: 70px;
+    font-size: 30px;
+    color: orange;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.name{
+    font-size: 30px;
+    color:white;
+    font-weight: 500;
+}
+.element{
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.btnFor{
+    position: absolute;
+    top: 701px;
+    width: 701px;
+    background-color: aqua;
+    height: 100px;
+    font-size: 30px;
+}
+.overflow{
+    overflow: auto;
+    height: 500px;
+}
+.winnerLogo{
+    box-sizing: border-box;
+    padding-left: 115px;
+    padding-top: 80px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: rgb(132, 190, 251);
+    margin-left: 180px;
+    margin-top: 80px;
+}
+.winerPoints{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+.mainWinner{
+    margin-top: 15px;
+    font-size: 50px;
+    color: black;
+    font-weight: 900;
+}
+.picture{
+    position: fixed;
+    top: 1px;
+    left:71px;
+    height:700px;
+    width: 700px;
+    background-image: url('https://oir.mobi/uploads/posts/2021-03/1616982096_43-p-fon-salyut-45.jpg');
+}
+.logo{
+    background-color: orange;
+    color: white;
+    height: 30px;
+    font-size: 24px;
+    width: 140px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px;
+    margin-top: 39px;
+}
+.btnWinner{
+    position: fixed;
+    top: 700px;
+    background-color: rgb(132, 190, 251);
+    height: 100px;
+    width: 700px;
+    color: white;
+    font-size: 40px;
+}
+.winerFlex{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.otherNmae{
+    margin-right: 100px;
+    font-size: 37px;
+    color: rgb(4, 4, 4);
+    font-weight: 800;
+}
+.otherpoint{
+    font-size: 37px;
+    color: rgb(4, 4, 4);
+    font-weight: 800;
+}
+.yesBtn{
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+    height: 390px;
+    width: 200px;
+   
+    padding-top:140px ;
+    padding-left: 30px;
+    font-size: 60px;
+}
+.noBtn{
+    box-sizing: border-box;
+    position: absolute;
+    left: 570px;
+    top: 200px;
+    height: 390px;
+    width: 200px;
+   
+    padding-top:140px ;
+    padding-left: 30px;
+    font-size: 60px;
+}
