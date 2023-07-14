@@ -10,9 +10,7 @@ import { actions } from "../../redux/makingTeamReducer";
     const [winner,setWinner]=useState('');
     const [total,setTotal]=useState(0)
     const teams=useSelector((state:AppstateType)=>state.teampage.teams)
-    // const amountOftems=useMemo(()=>{
-    //     return teams.length
-    // },[])
+    
     const arrayTe=useSelector((state:AppstateType)=>state.mode.arrayWithTeams)
     const objSet=useSelector((state:AppstateType)=>state.mode.objectOfsettings)
     const finalArray=useSelector((state:AppstateType)=>state.teampage.teams)
@@ -21,10 +19,9 @@ import { actions } from "../../redux/makingTeamReducer";
     const amountOfteam=arrayTe.length-1
     const [numberOfcurentTeam,setNumber]=useState(0)
     const [curentTeam,setCurentTeam]=useState('')
-    // const curentTeam=arrayTe[numberOfcurentTeam] check this shit
+    
     useEffect(()=>{
-        //curentTeam=arrayTe[numberOfcurentTeam]
-        //incrementTeam()
+        
         setCurentTeam(arrayTe[numberOfcurentTeam])
         const countofWords=Number(objSet?.countofWords)
         teams.forEach((element,index)=>{
@@ -35,11 +32,6 @@ import { actions } from "../../redux/makingTeamReducer";
             }
         })
        },[round])
-
-    //    useEffect(()=>{
-    //     incrementTeam()
-    //    },[round])
-
     const incrementTeam=()=>{
         setNumber((prev)=>{
             if (prev===amountOfteam){
@@ -49,8 +41,7 @@ import { actions } from "../../redux/makingTeamReducer";
         })
         
     }
-    //const curentTeam=arrayTe[numberOfcurentTeam]
-    
+
     const [openGameBlock,setOpenGameBlock]=useState(false)
     
     const arrayofTeams=useMemo(()=>{
@@ -251,11 +242,6 @@ return (
     </div>
 )
 })
-
-// type obj={
-//     name:string,
-//     typeOfAnswer:boolean
-// }
 
 type openBlock={
     curentteam:string,
