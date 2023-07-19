@@ -46,7 +46,7 @@ import s from './makeTeam.module.css'
                 </div>
             }
             <div className={s.add} onClick={()=>{setInputStatus((prev)=>!prev)}} >+</div>
-            <div className={s.instruction}> jsdfksdbfjhsbfjhf</div>
+            <div className={s.instruction}> </div>
             <div className={s.continue}><NavLink to={'/Setings'}>Next</NavLink></div>
         </div>
     )

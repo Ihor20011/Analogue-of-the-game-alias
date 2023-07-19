@@ -252,8 +252,6 @@ type openBlock={
 }
 const Answeres:React.FC<openBlock>= React.memo(({curentteam,incrementTeam,setOpenGameBlock,setRound,totalForanswersBlock})=>{
     const arrayWords=useSelector((state:AppstateType)=>state.teampage.arrayWithWords)
-    // const amount=arrayWords.length
-    // const [counter,setCounter]=useState(amount)
     const dispatch=useDispatch()
     const outWords=()=>{
         incrementTeam()
@@ -261,7 +259,7 @@ const Answeres:React.FC<openBlock>= React.memo(({curentteam,incrementTeam,setOpe
         setOpenGameBlock(false)
         
         dispatch(actions.outWords())
-        //setCounter(0)
+        
     }
     const array=arrayWords.map((element,index)=>{
         return <div className={s.element}>{element}</div>
