@@ -13,7 +13,7 @@ import s from './makeTeam.module.css'
 
     const navigate=useNavigate()
     const ret=()=>{
-        navigate('/')
+        navigate('/Setings')
     }
     const teams=useSelector((state:AppstateType)=>state.teampage.teams);
     const dispatch=useDispatch()
@@ -47,7 +47,7 @@ import s from './makeTeam.module.css'
             }
             <div className={s.add} onClick={()=>{setInputStatus((prev)=>!prev)}} >+</div>
             <div className={s.instruction}> </div>
-            <div className={s.continue}><NavLink to={'/Setings'}>Next</NavLink></div>
+            <button  disabled={teams.length>=2?false:true}  className={s.continue} onClick={ret}>Next</button>
         </div>
     )
 }
