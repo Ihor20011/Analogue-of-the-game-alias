@@ -238,7 +238,6 @@ return (
             <div className={s.trueWords}>{failwords}</div>
             <p>{ seconds}</p>
         </div>
-        <button onClick={()=>{setTimerSyayus(false) ;}  }>stop</button>
     </div>
 )
 })

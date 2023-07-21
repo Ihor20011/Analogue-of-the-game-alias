@@ -71,13 +71,12 @@ export  const  Settings=()=>{
             <p className={s.par}>Если вы пропустите слово вы потеряете бал</p>
             <div  className={s.showBlock}>{formik.values.dangerfor}</div>
             </div>
-            <select  className={s.select} name="dangerfor" id="dangerfor" onChange={(e)=>{formik.values.dangerfor=e.currentTarget.value;console.log(formik.values.dangerfor);}}
-            >
+            <select  className={s.select} name="dangerfor" id="dangerfor" onChange={(e)=>{formik.values.dangerfor=e.currentTarget.value;console.log(formik.values.dangerfor);}}>
             <option value="false">false</option>
             <option value="true">true</option>
             </select>
             </p>
-            <button   className={s.formbtn} type="submit">Далле</button>
+            <button  className={s.formbtn} type="submit">Далле</button>
         </form>
         </div>
     )
