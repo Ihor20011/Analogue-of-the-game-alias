@@ -9,7 +9,7 @@ import s from './Main.module.css'
            </div>
            <div className={s.change}></div>
            <div className={s.buttons}>
-               <div><NavLink to={'Next'} className={s.link}>Продолжить</NavLink></div> 
+               <div>Продолжить</div> 
                <div onClick={()=>{window.location.reload()}} ><NavLink to={'New'} className={s.link}>Новая Игра</NavLink> </div> 
                <div><NavLink to={'Rules'} className={s.link}>Правила</NavLink> </div>
            </div>
