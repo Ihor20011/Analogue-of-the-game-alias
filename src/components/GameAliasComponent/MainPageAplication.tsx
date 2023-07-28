@@ -1,7 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import s from './Main.module.css'
+import { persister } from "../../redux/redux-store";
  export const MainBlock=()=>{
+    const claen=()=>{
+        window.location.reload();
+        persister.purge()
+    }
     return(
         <div>
            <div className={s.blue}>
@@ -10,7 +15,7 @@ import s from './Main.module.css'
            <div className={s.change}></div>
            <div className={s.buttons}>
                <div>Продолжить</div> 
-               <div onClick={()=>{window.location.reload()}} ><NavLink to={'New'} className={s.link}>Новая Игра</NavLink> </div> 
+               <div onClick={()=>{claen()}} ><NavLink to={'New'} className={s.link}>Новая Игра</NavLink> </div> 
                <div><NavLink to={'Rules'} className={s.link}>Правила</NavLink> </div>
            </div>
            <div className={s.black} >Black</div>

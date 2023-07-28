@@ -74,6 +74,7 @@ switch(action.type){
         arrayWithWords:[]
         }
     }
+    
     default:
         return state
 }
@@ -105,7 +106,4 @@ export const actions={
         type:DECREMENT,
         name:name 
     } as const } ,
-    
-
-
 }
