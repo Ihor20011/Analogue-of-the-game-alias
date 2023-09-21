@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Analogue-of-the-game-alias/static/css/main.b168ef9b.css",
+    "main.js": "/Analogue-of-the-game-alias/static/js/main.6451f523.js",
+    "static/js/787.4d3411f1.chunk.js": "/Analogue-of-the-game-alias/static/js/787.4d3411f1.chunk.js",
+    "index.html": "/Analogue-of-the-game-alias/index.html",
+    "main.b168ef9b.css.map": "/Analogue-of-the-game-alias/static/css/main.b168ef9b.css.map",
+    "main.6451f523.js.map": "/Analogue-of-the-game-alias/static/js/main.6451f523.js.map",
+    "787.4d3411f1.chunk.js.map": "/Analogue-of-the-game-alias/static/js/787.4d3411f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b168ef9b.css",
+    "static/js/main.6451f523.js"
+  ]
+}
