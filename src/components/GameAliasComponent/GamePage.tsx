@@ -21,7 +21,7 @@ import { actions } from "../../redux/makingTeamReducer";
     const [curentTeam,setCurentTeam]=useState('')
     
     useEffect(()=>{
-        
+    
         setCurentTeam(arrayTe[numberOfcurentTeam])
         const countofWords=Number(objSet?.countofWords)
         teams.forEach((element,index)=>{
@@ -43,7 +43,8 @@ import { actions } from "../../redux/makingTeamReducer";
     }
 
     const [openGameBlock,setOpenGameBlock]=useState(false)
-    
+
+
     const arrayofTeams=useMemo(()=>{
     return finalArray.map((elem,index)=>{
     return <div className={s.teamBlock}>
@@ -169,6 +170,7 @@ type TymerGame={
     },[onGameWORDS,failwords])
     //const randomWord= random(array)
 
+    
 
     useEffect(()=>{
          if(onTimer){

@@ -3,9 +3,7 @@
 import React from 'react';
 import { Suspense } from 'react';
 import './App.css';
-
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-
 import { MainBlock } from './components/GameAliasComponent/MainPageAplication';
 import { Rules } from './components/GameAliasComponent/Rules';
 import { MakingTeam } from './components/GameAliasComponent/MakeTeam';
@@ -14,10 +12,11 @@ import { Mode } from './components/GameAliasComponent/Mode';
 import { GamePage, TimerGame } from './components/GameAliasComponent/GamePage';
 
 
+
 class AppC extends React.Component{
   render(){
     return(
-      <BrowserRouter>
+      <BrowserRouter  basename={process.env.PUBLIC_URL}>
        <div className='app-wrapper'>
         <div className='game'>
           <Suspense fallback={<div>loading</div>}>
