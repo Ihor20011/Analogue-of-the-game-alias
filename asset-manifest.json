@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Analogue-of-the-game-alias/static/css/main.b168ef9b.css",
-    "main.js": "/Analogue-of-the-game-alias/static/js/main.a6491fca.js",
+    "main.js": "/Analogue-of-the-game-alias/static/js/main.93c80dfa.js",
     "static/js/787.4d3411f1.chunk.js": "/Analogue-of-the-game-alias/static/js/787.4d3411f1.chunk.js",
     "index.html": "/Analogue-of-the-game-alias/index.html",
     "main.b168ef9b.css.map": "/Analogue-of-the-game-alias/static/css/main.b168ef9b.css.map",
-    "main.a6491fca.js.map": "/Analogue-of-the-game-alias/static/js/main.a6491fca.js.map",
+    "main.93c80dfa.js.map": "/Analogue-of-the-game-alias/static/js/main.93c80dfa.js.map",
     "787.4d3411f1.chunk.js.map": "/Analogue-of-the-game-alias/static/js/787.4d3411f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b168ef9b.css",
-    "static/js/main.a6491fca.js"
+    "static/js/main.93c80dfa.js"
   ]
 }
