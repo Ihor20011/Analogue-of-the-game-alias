@@ -1,5 +1,4 @@
 //@ts-ignore
-
 import React from 'react';
 import { Suspense } from 'react';
 import './App.css';
@@ -10,9 +9,6 @@ import { MakingTeam } from './components/GameAliasComponent/MakeTeam';
 import { Settings } from './components/GameAliasComponent/Settings';
 import { Mode } from './components/GameAliasComponent/Mode';
 import { GamePage, TimerGame } from './components/GameAliasComponent/GamePage';
-
-
-
 class AppC extends React.Component{
   render(){
     return(
@@ -23,7 +19,7 @@ class AppC extends React.Component{
             <Routes>
              <Route path='/' element={<MainBlock/>}/>
              <Route path='/Rules' element={<Rules/>} />
-             <Route path='/New' element={<MakingTeam/>} />
+             <Route path='/new' element={<MakingTeam/>} />
              <Route path='/Setings' element={<Settings/>} />
              <Route path='/Mode'  element={<Mode/>} />
              <Route path='/GamePage' element={<GamePage/>}/>

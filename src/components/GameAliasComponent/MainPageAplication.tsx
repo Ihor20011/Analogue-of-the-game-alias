@@ -15,7 +15,7 @@ import { persister } from "../../redux/redux-store";
            <div className={s.change}></div>
            <div className={s.buttons}>
                <div>Продолжить</div> 
-               <div onClick={()=>{claen()}} ><NavLink to={'New'} className={s.link}>Новая Игра</NavLink> </div> 
+               <div onClick={()=>{claen()}} ><NavLink to={'new'} className={s.link}>Новая Игра</NavLink> </div> 
                <div><NavLink to={'Rules'} className={s.link}>Правила</NavLink> </div>
            </div>
            <div className={s.black} >Black</div>
